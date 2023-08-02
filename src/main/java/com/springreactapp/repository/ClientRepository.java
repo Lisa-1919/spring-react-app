@@ -1,6 +1,6 @@
-package com.baeldung.springbootreact.repository;
+package com.springreactapp.repository;
 
-import com.baeldung.springbootreact.domain.Client;
+import com.springreactapp.domain.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClientRepository extends JpaRepository<Client, Long> {

@@ -1,7 +1,7 @@
-package com.baeldung.springbootreact.controller;
+package com.springreactapp.controller;
 
-import com.baeldung.springbootreact.domain.Client;
-import com.baeldung.springbootreact.repository.ClientRepository;
+import com.springreactapp.domain.Client;
+import com.springreactapp.repository.ClientRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
